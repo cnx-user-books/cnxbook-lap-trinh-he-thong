@@ -1,0 +1,115 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:md="http://cnx.rice.edu/mdml">
+  <title>Bài tập chương 1</title>
+  <metadata>
+  <md:content-id>m27884</md:content-id><md:title>Bài tập chương 1</md:title>
+  <md:abstract/>
+  <md:uuid>4e766f14-1c08-4ddf-a1d1-d898587020a8</md:uuid>
+</metadata>
+
+<content>
+    <section id="id-659564266614">
+      <title>BÀI TẬP CHƯƠNG 1</title>
+      <para id="id12479319">1. Chọn các thanh ghi đa dụng để lưu trữ các dữ liệu sau đây, sao cho mỗi thanh ghi lưu trữ 1 giá trị và không trùng nhau (Giải thích việc chọn thanh ghi): 15h, 0AFh, 01234h, 230, 257, ‘H’, 8086.</para>
+      <para id="id16456214">Ghi chú: Số có tận cùng bằng h (hay H) là số thập lục phân (Hexa); </para>
+      <para id="id15820758">‘H’ : Ký tự H</para>
+      <para id="id11895372">2. Các thanh ghi đang lưu trữ giá trị như sau:</para>
+      <para id="id12129018">AH = 11hAL = 22hCL = 15</para>
+      <para id="id15972270">CH = 10BX = 0A1D4hDX = 8086</para>
+      <para id="id16825376">Hãy cho biết giá trị thập lục phân của những thanh ghi sau và giải thích:</para>
+      <para id="id14052002">AX, CX, BH, BL, DH, DL</para>
+      <para id="id13338356">3. Mô tả các cách có thể sử dụng được để lưu trữ giá trị vào thanh ghi sau:</para>
+      <para id="id14138168">a. 1234h vào thanh ghi SIb. 5678h vào thanh ghi AX</para>
+      <para id="id15636464">c. 100 vào thanh ghi DId. 100 vào thanh ghi DX</para>
+      <para id="id16437583">4. Sử dụng mô hình bộ nhớ gồm 17 ô nhớ như hình A1 để ghi các dữ liệu sau đây vào bộ nhớ sao cho các giá trị không chồng lên nhau (sinh viên tự chọn địa chỉ ô nhớ để lưu trữ): 15h, 0AFh, 01234h, 230, 257, ‘H’, 8086, 3A4B5h, 0F1D2E3h</para>
+      <table id="id16456592" summary="">
+        <tgroup cols="2">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <tbody>
+            <row>
+              <entry>Ô nhớ</entry>
+              <entry>Địa chỉ</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>00010h</entry>
+            </row>
+            <row>
+              <entry>…..</entry>
+              <entry>…..</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>00002h</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>00001h</entry>
+            </row>
+            <row>
+              <entry/>
+              <entry>00000h</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id15910686">Hình A1: Mô hình bộ nhớ</para>
+      <para id="id15910692">5. Với mô hình bộ nhớ kết quả của câu 4, hãy cho biết giá trị dữ liệu 8/16/24/32 bit tại mỗi địa chỉ sau đây ở dạng thập lục phân:</para>
+      <para id="id15910702">a. 00004h  b. 00008hc. 0000Bh d. 0000Dh</para>
+      <para id="id16701796">6. Đổi sang địa chỉ vật lý tương ứng với mỗi địa chỉ logic sau:</para>
+      <para id="id16701803">a. 0000:0001hb. 0100:1234h</para>
+      <para id="id12336268">c. ABCD:3AFFhd. AF70:00CFh</para>
+      <para id="id12336279">7. Viết ra 4 địa chỉ logic khác nhau đối với mỗi địa chỉ vật lý sau:</para>
+      <para id="id14022210">a. 40000hb. 0D32FCh</para>
+      <para id="id14022223">8. Tìm tất cả các địa chỉ logic khác nhau có thể có của mỗi ô nhớ có địa chỉ vật lý sau đây:</para>
+      <para id="id15972100">a. 00000h b. 0000Fhc. 00010h d. 0001Fh</para>
+      <para id="id16530168">Có nhận xét gì về các kết quả trên?</para>
+      <para id="id16530176">9. Cho một chương trình bao gồm 100 byte lệnh (Code), 200 byte dữ liệu (Data) và 16 KB ngăn xếp (Stack). Vẽ hình mô tả tổ chức vùng nhớ của chương trình trên trong bộ nhớ có mô hình như hình A2 theo hai cách sau (sinh viên tự gán địa chỉ vật lý và logic thích hợp với đầu và cuối cho từng vùng):</para>
+      <para id="id16530182">a. Dùng chung 1 đoạn duy nhất cho cả 3 vùng Code, Data và Stack</para>
+      <para id="id17440917">b. Dùng 3 đoạn riêng biệt không chồng nhau cho Code, Data, Stack</para>
+      <table id="id17491715" summary="">
+        <tgroup cols="3">
+          <colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <colspec colnum="3" colname="c3"/>
+          <tbody>
+            <row>
+              <entry>Địa chỉ logic</entry>
+              <entry>Ô nhớ</entry>
+              <entry>Địa chỉ vật lý</entry>
+            </row>
+            <row>
+              <entry>….:….</entry>
+              <entry/>
+              <entry>….</entry>
+            </row>
+            <row>
+              <entry>…..:…</entry>
+              <entry>…..</entry>
+              <entry>…..</entry>
+            </row>
+            <row>
+              <entry>….:…</entry>
+              <entry/>
+              <entry>….</entry>
+            </row>
+            <row>
+              <entry>….:…</entry>
+              <entry/>
+              <entry>….</entry>
+            </row>
+            <row>
+              <entry>….:…</entry>
+              <entry/>
+              <entry>….</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+      <para id="id16899946">Hình A2: Mô hình tổ chức bộ nhớ</para>
+      <para id="id16899952">10. Bằng mô hình bộ nhớ kết quả của câu 9a, hãy thiết lập giá trị các thanh ghi sao cho CPU-8086 truy xuất được những ô nhớ trong mỗi trường hợp sau:</para>
+      <para id="id16899962">a. Byte lệnh đầu tiênb. Byte lệnh thứ 20</para>
+      <para id="id14998277">c. Byte dữ liệu đầu tiênd. Byte dữ liệu thứ 100</para>
+    </section>
+  </content>
+</document>

@@ -1,3 +1,66 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col10882</md:content-id>  <md:title>Lập trình hệ thống</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>vi</md:language>        <md:uuid>1ba9383b-ec5b-40c3-bee4-e98d441e3903</md:uuid>
-<md:slug>lap-trinh-he-thong</md:slug>
-</metadata>  <col:content>                        <col:subcollection>        <md:title>Giới thiệu</md:title>                                <col:content>                    <col:module document="m29705"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 1: Tổ chức bộ xử lý Intel-8086</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 2: Hợp ngữ</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 3: Tập lệnh và Kiểu định vị</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 4: Hệ thống ngắt mềm</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 5: Lệnh nhảy và Vòng lặp</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 6: Ngăn xếp và Chương trình con</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Chương 7: Xử lý số và Chuỗi</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Bài tập  </md:title>                                <col:content>                                  <col:subcollection>        <md:title>(Untitled)</md:title>                                <col:content>                    <col:module document="m27884"/>                          </col:content>      </col:subcollection>            </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>  Thực hành</md:title>                                <col:content>                  </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Phần mềm</md:title>                                <col:content>                  </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" authors="VOCW ,Nguy&#x1EC5;n H&#x1EE9;a Duy Khang">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col10882</md:content-id>
+    <md:title>L&#x1EAD;p tr&#xEC;nh h&#x1EC7; th&#x1ED1;ng</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>vi</md:language>
+    <md:uuid>1ba9383b-ec5b-40c3-bee4-e98d441e3903</md:uuid>
+    <md:slug>lap-trinh-he-thong</md:slug>
+  </metadata>
+  <col:content>
+    <col:subcollection>
+      <md:title>Gi&#x1EDB;i thi&#x1EC7;u</md:title>
+      <col:content>
+        <col:module document="m29705"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 1: T&#x1ED5; ch&#x1EE9;c b&#x1ED9; x&#x1EED; l&#xFD; Intel-8086</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 2: H&#x1EE3;p ng&#x1EEF;</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 3: T&#x1EAD;p l&#x1EC7;nh v&#xE0; Ki&#x1EC3;u &#x111;&#x1ECB;nh v&#x1ECB;</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 4: H&#x1EC7; th&#x1ED1;ng ng&#x1EAF;t m&#x1EC1;m</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 5: L&#x1EC7;nh nh&#x1EA3;y v&#xE0; V&#xF2;ng l&#x1EB7;p</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 6: Ng&#x103;n x&#x1EBF;p v&#xE0; Ch&#x1B0;&#x1A1;ng tr&#xEC;nh con</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ch&#x1B0;&#x1A1;ng 7: X&#x1EED; l&#xFD; s&#x1ED1; v&#xE0; Chu&#x1ED7;i</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>B&#xE0;i t&#x1EAD;p  </md:title>
+      <col:content>
+        <col:subcollection>
+          <md:title>(Untitled)</md:title>
+          <col:content>
+            <col:module document="m27884"/>
+          </col:content>
+        </col:subcollection>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>  Th&#x1EF1;c h&#xE0;nh</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Ph&#x1EA7;n m&#x1EC1;m</md:title>
+      <col:content>                  </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
